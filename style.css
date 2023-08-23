@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    margin: 15px;
+    
+}
+
+  .logo {
+    position: absolute;
+    top: 12px;
+    left: 25px;
+    font-family: 'Peralta', cursive;
+    font-weight: bold 400;
+    font-size: 40px;
+  }
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+  }
+  .left {
+    position: absolute;
+    top: 390px;
+    left: 50px;
+  }
+  .left h1{
+    color:#4B40C5;
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
+    font-size:45px;
+  }
+  .left h3{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size:32px;
+  }
+  .btn-left{
+    padding: 16px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #FFF1DA;
+    position: relative;
+    line-height: 35px;
+    background-color: #4B40C5;
+  }
+  
+  ul{
+    display: flex;
+    top:20px;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    left:400px;
+ }
+ ul,li{
+    font-family: Poppins;
+     font-weight: bold;
+     font-size: 20px;
+ }
+ .login-btn, .signup-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:white;
+    position: relative;
+    line-height: 25px;
+    background-color: #EC682C
+ }
