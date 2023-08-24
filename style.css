@@ -1,16 +1,17 @@
 .container {
     position: relative;
-    margin: 15px;
+    margin: 0px;
     
 }
 
   .logo {
     position: absolute;
     top: 12px;
-    left: 25px;
-    font-family: 'Peralta', cursive;
-    font-weight: bold 400;
-    font-size: 40px;
+    left: 30px;
+    font-family: 'Peralta';
+    font-weight: bold 900;
+    font-size: 45px;
+    color:black;
   }
   .topright {
     position: absolute;
@@ -20,7 +21,7 @@
   .left {
     position: absolute;
     top: 390px;
-    left: 50px;
+    left: 30px;
   }
   .left h1{
     color:#4B40C5;
@@ -37,6 +38,7 @@
   .btn-left{
     padding: 16px 25px;
     border-radius: 15px;
+    font-family:'Poppins', sans-serif;
     text-decoration: none;
     font-size: 23px;
     color: #FFF1DA;
@@ -57,6 +59,8 @@
     font-family: Poppins;
      font-weight: bold;
      font-size: 20px;
+     color:#212832;
+     
  }
  .login-btn, .signup-btn{
     padding: 10px 20px;
@@ -66,3 +70,64 @@
     line-height: 25px;
     background-color: #EC682C
  }
+ .section2 h4 {
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 18px;
+  color:#4B40C5;
+ }
+ .section2 h1{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #14183E;
+ }
+ .img1
+ {
+  width:417px;
+  Height:607px;
+  left:21px;
+  border-radius: 31px; 
+   
+}
+.img2
+{
+ width:417px;
+ Height:607px;
+ left:21px;
+ border-radius: 31px;
+}
+.img3
+{
+ width:417px;
+ Height:607px;
+ left:21px;
+ border-radius: 31px;;
+}
+.section2{
+  background-color: blue;
+}
+
+.section2 .rectimg1{
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000000;
+  position:relative;
+ 
+
+}
+.section2 .rectimg2{
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000000;
+ 
+}
+.section2 .rectimg3{
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000000;
+  
+}
+
