@@ -1,3 +1,4 @@
+/* Header Style Start */
 .container {
     position: relative;
     margin: 0px;    
@@ -69,6 +70,99 @@
     line-height: 25px;
     background-color: #EC682C
  }
+ /* Header Style End */
+
+ /* Section 1 Style Start */
+ .section1{
+  background-color:chartreuse;
+ }
+ .category{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 22px;
+  color:#4B40C5;
+ }
+.offer{
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  color:#14183E
+}
+ .div{
+  display: flex;
+ }
+ .one{
+  margin-left: 30px;
+  margin-top: 110px;
+ }
+ .two{
+  margin-top:20px;
+ }
+ .three{
+  margin-top: 20px;
+ }
+ .four{
+  margin-top: 110px;
+  margin-right: 30px;
+ }
+ .one h4{
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+ }
+ .one h6{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+ }
+ .four h4{
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+ }
+ .four h6{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+ }
+ /* .rect1{
+  position: relative;
+ } */
+ .plane{
+  position: absolute;
+  left:233px;
+  
+ }
+ /* .rect2{
+  position: relative;
+ } */
+ .three{
+  position: absolute;
+  left:930px;
+  padding-top: 60px;
+ }
+ .three h4{
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  
+ }
+ .three h6{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+ }
+ 
+
+ /* Section 1 Style End */
+
+
+
+
+/* Section 2 Style Start */
+
+
  .topselling {
   font-family: Poppins;
   font-weight: 700;
@@ -223,9 +317,7 @@ left:-25px;
     position: absolute;
     left:-25px;;
   }
- .section1{
-  background-color:chartreuse;
- }
 
+/* Section 2 Style End */
 
 
