@@ -84,7 +84,7 @@
  }
 .offer{
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color:#14183E
 }
@@ -95,9 +95,7 @@
   margin-left: 30px;
   margin-top: 80px;
  }
- .two{
-  margin-top:20px;
- }
+
  .three{
   margin-top: 20px;
  }
@@ -136,7 +134,7 @@
  .three{
   position: absolute;
   left:930px;
-  padding-top: 60px;
+  
  }
  .three h4{
   font-family: Poppins;
@@ -167,8 +165,47 @@
   font-weight: 400;
   text-align: center;
  }
+.Rectorange{
+  width:117px;
+  height:125px;
+  margin-top:280px;
+  margin-left:100px;
+}
+.rect1{
+  position: absolute;
+  margin-left:-180px;
+  margin-top:-30px;
+}
+.section1{
+  background-color: chartreuse;
+}
+.Rectblue{
+  width:117px;
+  height:125px;
+}
+.rect2{
+  position: absolute;
+  margin-left:-250px;
+  margin-top:-50px;
+}
+.Rectblue{
+  margin-left:435px;
+  margin-top:-55px;
+}
+.mike{
+  position: absolute;
+  left:800px;
+}
+.local{
+  position: absolute;
+  left:800px;
+  top:350px;
+}
+ .get{
+  position:absolute;
+  left:800px
 
- 
+ }
  
 
  /* Section 1 Style End */
