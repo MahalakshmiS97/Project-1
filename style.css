@@ -368,6 +368,55 @@ left:-25px;
 
 /* Section 2 Style End */
 
+/* Section 4 style satrt */
+.section4{
+  background-color:aqua;
+}
+.sec4{
+  display:flex;
+}
+.head h2{
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 700;
+  color:#7F2736;
+}
+.head span{
+  color:#2C2D32;
+  font-weight: 600;
+}
+.head p{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 43px;
+  color:#2C2D32;
+}
+/* .card1{
+  position: absolute;
+  margin-top:-300px;
+}
+.card1 p{
+  margin-top:80px;
+  text-align: center;
+} */
 
-
+.sec4div1::before{
+  content:url(./Images/blueround.svg);
+  margin-top:-15px;
+  margin-left:140px;
+  position: absolute;
+}
+.sec4div2::before{
+  content:url(./Images/orangeround.svg);
+  position: absolute;
+  margin-top:-15px;
+  margin-left:140px;
+}
+.sec4div3::before{
+  content:url(./Images/Yellowround.svg);
+  position: absolute;
+  margin-top:-15px;
+  margin-left:140px;
+}
 
