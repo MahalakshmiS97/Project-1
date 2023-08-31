@@ -128,7 +128,6 @@
   position: absolute;
   left: 300px;
   top:60px;
-  
  }
 
  .three{
@@ -204,8 +203,6 @@
  
 
  /* Section 1 Style End */
-
-
 
 
 /* Section 2 Style Start */
@@ -369,9 +366,6 @@ left:-25px;
 /* Section 2 Style End */
 
 /* Section 4 style satrt */
-.section4{
-  background-color:aqua;
-}
 .sec4{
   display:flex;
 }
@@ -392,31 +386,110 @@ left:-25px;
   line-height: 43px;
   color:#2C2D32;
 }
-/* .card1{
-  position: absolute;
-  margin-top:-300px;
-}
-.card1 p{
-  margin-top:80px;
-  text-align: center;
-} */
-
 .sec4div1::before{
-  content:url(./Images/blueround.svg);
-  margin-top:-15px;
-  margin-left:140px;
+  content: url(./Images/whitestar.svg);
+  margin-top:15px;
+  margin-left:175px;
   position: absolute;
+  border-radius:100px;
+  background-color: #4B40C5;
+  padding:20px;
 }
 .sec4div2::before{
-  content:url(./Images/orangeround.svg);
+  content:url(./Images/whiteworld.svg);
   position: absolute;
-  margin-top:-15px;
-  margin-left:140px;
+  margin-top:15px;
+  margin-left:175px;
+  background-color: #F0BB1F;
+  border-radius:100px;
+  padding:20px;
 }
 .sec4div3::before{
-  content:url(./Images/Yellowround.svg);
+  content:url(./Images/whitelike.svg);
   position: absolute;
-  margin-top:-15px;
-  margin-left:140px;
+  margin-top:15px;
+  margin-left:175px;
+  border-radius:100px;
+  padding:20px;
+  background-color: #F15A2B;
+}
+.sec4div1 .card1{
+  position: absolute;
+  margin-top: -370px;
+  margin-left: 80px;
+}
+.sec4div1 .card1 h4{
+  font-family: poppins;
+  font-weight: 500;
+  font-size:30px;
+}
+.sec4div1 .card1 p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size:18px;
+}
+.sec4div2 .card2{
+  position: absolute;
+  margin-top: -370px;
+  margin-left: 80px;
+}
+.sec4div2 .card2 h4{
+  font-family: poppins;
+  font-weight: 500;
+  font-size:30px;
+}
+.sec4div2 .card2 p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size:18px;
+}
+.sec4div3 .card3{
+  position: absolute;
+  margin-top: -370px;
+  margin-left: 80px;
+}
+.sec4div3 .card3 h4{
+  font-family: poppins;
+  font-weight: 500;
+  font-size:30px;
+}
+.sec4div3 .card3 p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size:18px;
+}
+/* Section 4 Style End */
+
+/* Section 5 style start */
+.section5{
+  background-color:lightgrey;
+  
+}
+.section5::before{
+content:url(./Images/share.svg);
+margin-left:1300px;
+}
+.sec5div1{
+  font-family: poppins;
+  font-weight: 600;
+  font-size:28px;
+  line-height: 71px;
+  color:#5E6282;
+}
+.sec5div2 p{
+  position: absolute;
+  margin-top: -50px;
+}
+.sec5rect{
+  margin-left:365px;
+}
+.sec5div2 p::before{
+  content: url(./Images/message.svg);
+  margin-left: 390px;
+}
+.sec5div2 p{
+  font-family: Montserrat;
+  font-weight:400;
+  font-size: 15px;
 }
 
