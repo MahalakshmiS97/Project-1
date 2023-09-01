@@ -462,12 +462,12 @@ left:-25px;
 
 /* Section 5 style start */
 .section5{
-  background-color:lightgrey;
+  background-color: #DFD7F9;
   
 }
 .section5::before{
 content:url(./Images/share.svg);
-margin-left:1300px;
+margin-left:1380px;
 }
 .sec5div1{
   font-family: poppins;
@@ -476,20 +476,42 @@ margin-left:1300px;
   line-height: 71px;
   color:#5E6282;
 }
+.sec5div2{
+  display: flex;
+  
+}
 .sec5div2 p{
   position: absolute;
-  margin-top: -50px;
-}
-.sec5rect{
-  margin-left:365px;
-}
-.sec5div2 p::before{
-  content: url(./Images/message.svg);
-  margin-left: 390px;
-}
-.sec5div2 p{
+  margin-top:25px;
   font-family: Montserrat;
   font-weight:400;
   font-size: 15px;
 }
-
+.sec5rect{
+  margin-left:365px;
+  width:430px;
+}
+.sec5div2 p::before{
+  content: url(./Images/message.svg);
+  margin-left: 390px;
+  top:50px;
+  padding:10px;
+}
+.btn5{
+  padding: 16px 38px;
+  border-radius: 12px;
+  font-family:'Poppins', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  
+  line-height: 35px;
+  background-color:#FF946D;
+}
+.footdiv1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
